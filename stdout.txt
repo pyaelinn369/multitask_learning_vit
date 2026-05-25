@@ -1,0 +1,86 @@
+⚙️ Compiling model with explicit structural lists...
+🚀 Igniting Multi-Task Vision Transformer Training Loop...
+Epoch 1/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9305 - age_output_loss: 0.2804 - gender_output_accuracy: 0.6435 - gender_output_loss: 0.6924 - loss: 0.4864
+Epoch 1: val_loss improved from None to 0.52387, saving model to ./best_multitask_vit_model.keras
+
+Epoch 1: finished saving model to ./best_multitask_vit_model.keras
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m587s[0m 2s/step - age_output_accuracy: 0.9498 - age_output_loss: 0.2038 - gender_output_accuracy: 0.7023 - gender_output_loss: 0.5758 - loss: 0.3899 - val_age_output_accuracy: 0.8615 - val_age_output_loss: 0.4609 - val_gender_output_accuracy: 0.7027 - val_gender_output_loss: 0.5772 - val_loss: 0.5239
+Epoch 2/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9649 - age_output_loss: 0.1288 - gender_output_accuracy: 0.7884 - gender_output_loss: 0.4472 - loss: 0.2880
+Epoch 2: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m560s[0m 2s/step - age_output_accuracy: 0.9675 - age_output_loss: 0.1199 - gender_output_accuracy: 0.7965 - gender_output_loss: 0.4330 - loss: 0.2764 - val_age_output_accuracy: 0.8601 - val_age_output_loss: 0.5235 - val_gender_output_accuracy: 0.7175 - val_gender_output_loss: 0.5515 - val_loss: 0.5418
+Epoch 3/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9763 - age_output_loss: 0.0836 - gender_output_accuracy: 0.8431 - gender_output_loss: 0.3514 - loss: 0.2175
+Epoch 3: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m561s[0m 2s/step - age_output_accuracy: 0.9772 - age_output_loss: 0.0812 - gender_output_accuracy: 0.8441 - gender_output_loss: 0.3483 - loss: 0.2148 - val_age_output_accuracy: 0.8529 - val_age_output_loss: 0.7221 - val_gender_output_accuracy: 0.7165 - val_gender_output_loss: 0.5875 - val_loss: 0.6602
+Epoch 4/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9835 - age_output_loss: 0.0567 - gender_output_accuracy: 0.8815 - gender_output_loss: 0.2790 - loss: 0.1678
+Epoch 4: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m560s[0m 2s/step - age_output_accuracy: 0.9838 - age_output_loss: 0.0554 - gender_output_accuracy: 0.8815 - gender_output_loss: 0.2767 - loss: 0.1660 - val_age_output_accuracy: 0.8494 - val_age_output_loss: 0.8462 - val_gender_output_accuracy: 0.7256 - val_gender_output_loss: 0.6169 - val_loss: 0.7383
+Epoch 5/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9888 - age_output_loss: 0.0347 - gender_output_accuracy: 0.9150 - gender_output_loss: 0.2041 - loss: 0.1194
+Epoch 5: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m560s[0m 2s/step - age_output_accuracy: 0.9887 - age_output_loss: 0.0362 - gender_output_accuracy: 0.9113 - gender_output_loss: 0.2133 - loss: 0.1247 - val_age_output_accuracy: 0.8637 - val_age_output_loss: 0.7331 - val_gender_output_accuracy: 0.7259 - val_gender_output_loss: 0.6546 - val_loss: 0.7011
+Epoch 6/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9927 - age_output_loss: 0.0246 - gender_output_accuracy: 0.9388 - gender_output_loss: 0.1551 - loss: 0.0898
+Epoch 6: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m559s[0m 2s/step - age_output_accuracy: 0.9920 - age_output_loss: 0.0260 - gender_output_accuracy: 0.9359 - gender_output_loss: 0.1610 - loss: 0.0935 - val_age_output_accuracy: 0.8596 - val_age_output_loss: 0.9457 - val_gender_output_accuracy: 0.7340 - val_gender_output_loss: 0.6688 - val_loss: 0.8156
+Epoch 7/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9951 - age_output_loss: 0.0150 - gender_output_accuracy: 0.9554 - gender_output_loss: 0.1133 - loss: 0.0642
+Epoch 7: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m559s[0m 2s/step - age_output_accuracy: 0.9948 - age_output_loss: 0.0163 - gender_output_accuracy: 0.9532 - gender_output_loss: 0.1191 - loss: 0.0677 - val_age_output_accuracy: 0.8586 - val_age_output_loss: 1.1116 - val_gender_output_accuracy: 0.7201 - val_gender_output_loss: 0.8442 - val_loss: 0.9898
+Epoch 8/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9954 - age_output_loss: 0.0131 - gender_output_accuracy: 0.9655 - gender_output_loss: 0.0917 - loss: 0.0524
+Epoch 8: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m560s[0m 2s/step - age_output_accuracy: 0.9954 - age_output_loss: 0.0137 - gender_output_accuracy: 0.9639 - gender_output_loss: 0.0947 - loss: 0.0542 - val_age_output_accuracy: 0.8542 - val_age_output_loss: 1.1803 - val_gender_output_accuracy: 0.7311 - val_gender_output_loss: 0.8986 - val_loss: 1.0493
+Epoch 9/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9962 - age_output_loss: 0.0129 - gender_output_accuracy: 0.9742 - gender_output_loss: 0.0717 - loss: 0.0423
+Epoch 9: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m560s[0m 2s/step - age_output_accuracy: 0.9964 - age_output_loss: 0.0122 - gender_output_accuracy: 0.9723 - gender_output_loss: 0.0755 - loss: 0.0439 - val_age_output_accuracy: 0.8505 - val_age_output_loss: 1.4147 - val_gender_output_accuracy: 0.7304 - val_gender_output_loss: 0.8348 - val_loss: 1.1348
+Epoch 10/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9963 - age_output_loss: 0.0116 - gender_output_accuracy: 0.9788 - gender_output_loss: 0.0586 - loss: 0.0351
+Epoch 10: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m561s[0m 2s/step - age_output_accuracy: 0.9965 - age_output_loss: 0.0112 - gender_output_accuracy: 0.9775 - gender_output_loss: 0.0616 - loss: 0.0365 - val_age_output_accuracy: 0.8517 - val_age_output_loss: 1.7597 - val_gender_output_accuracy: 0.7368 - val_gender_output_loss: 1.0229 - val_loss: 1.4065
+Epoch 11/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9969 - age_output_loss: 0.0104 - gender_output_accuracy: 0.9810 - gender_output_loss: 0.0520 - loss: 0.0312
+Epoch 11: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m561s[0m 2s/step - age_output_accuracy: 0.9971 - age_output_loss: 0.0101 - gender_output_accuracy: 0.9793 - gender_output_loss: 0.0569 - loss: 0.0335 - val_age_output_accuracy: 0.8575 - val_age_output_loss: 1.3686 - val_gender_output_accuracy: 0.7267 - val_gender_output_loss: 0.9980 - val_loss: 1.1973
+Epoch 12/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9976 - age_output_loss: 0.0076 - gender_output_accuracy: 0.9847 - gender_output_loss: 0.0433 - loss: 0.0255
+Epoch 12: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m560s[0m 2s/step - age_output_accuracy: 0.9973 - age_output_loss: 0.0085 - gender_output_accuracy: 0.9831 - gender_output_loss: 0.0470 - loss: 0.0278 - val_age_output_accuracy: 0.8508 - val_age_output_loss: 1.3617 - val_gender_output_accuracy: 0.7371 - val_gender_output_loss: 1.2133 - val_loss: 1.3112
+Epoch 13/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9974 - age_output_loss: 0.0098 - gender_output_accuracy: 0.9862 - gender_output_loss: 0.0403 - loss: 0.0250
+Epoch 13: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m559s[0m 2s/step - age_output_accuracy: 0.9974 - age_output_loss: 0.0086 - gender_output_accuracy: 0.9846 - gender_output_loss: 0.0444 - loss: 0.0264 - val_age_output_accuracy: 0.8552 - val_age_output_loss: 1.3236 - val_gender_output_accuracy: 0.7284 - val_gender_output_loss: 1.0463 - val_loss: 1.2020
+Epoch 14/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9983 - age_output_loss: 0.0055 - gender_output_accuracy: 0.9875 - gender_output_loss: 0.0362 - loss: 0.0208
+Epoch 14: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m564s[0m 2s/step - age_output_accuracy: 0.9980 - age_output_loss: 0.0068 - gender_output_accuracy: 0.9851 - gender_output_loss: 0.0412 - loss: 0.0240 - val_age_output_accuracy: 0.8535 - val_age_output_loss: 1.8903 - val_gender_output_accuracy: 0.7197 - val_gender_output_loss: 1.0489 - val_loss: 1.4918
+Epoch 15/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9978 - age_output_loss: 0.0079 - gender_output_accuracy: 0.9868 - gender_output_loss: 0.0382 - loss: 0.0231
+Epoch 15: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m570s[0m 2s/step - age_output_accuracy: 0.9977 - age_output_loss: 0.0075 - gender_output_accuracy: 0.9860 - gender_output_loss: 0.0402 - loss: 0.0239 - val_age_output_accuracy: 0.8580 - val_age_output_loss: 1.6294 - val_gender_output_accuracy: 0.7356 - val_gender_output_loss: 1.1843 - val_loss: 1.4214
+Epoch 16/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9981 - age_output_loss: 0.0069 - gender_output_accuracy: 0.9871 - gender_output_loss: 0.0384 - loss: 0.0226
+Epoch 16: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m565s[0m 2s/step - age_output_accuracy: 0.9977 - age_output_loss: 0.0075 - gender_output_accuracy: 0.9870 - gender_output_loss: 0.0374 - loss: 0.0225 - val_age_output_accuracy: 0.8518 - val_age_output_loss: 1.4649 - val_gender_output_accuracy: 0.7251 - val_gender_output_loss: 1.2567 - val_loss: 1.3772
+Epoch 17/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9982 - age_output_loss: 0.0066 - gender_output_accuracy: 0.9891 - gender_output_loss: 0.0312 - loss: 0.0189
+Epoch 17: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m564s[0m 2s/step - age_output_accuracy: 0.9980 - age_output_loss: 0.0069 - gender_output_accuracy: 0.9883 - gender_output_loss: 0.0338 - loss: 0.0204 - val_age_output_accuracy: 0.8527 - val_age_output_loss: 1.4767 - val_gender_output_accuracy: 0.7288 - val_gender_output_loss: 1.3560 - val_loss: 1.4302
+Epoch 18/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9985 - age_output_loss: 0.0052 - gender_output_accuracy: 0.9899 - gender_output_loss: 0.0307 - loss: 0.0179
+Epoch 18: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m564s[0m 2s/step - age_output_accuracy: 0.9984 - age_output_loss: 0.0056 - gender_output_accuracy: 0.9891 - gender_output_loss: 0.0320 - loss: 0.0188 - val_age_output_accuracy: 0.8546 - val_age_output_loss: 1.7541 - val_gender_output_accuracy: 0.7306 - val_gender_output_loss: 1.0917 - val_loss: 1.4343
+Epoch 19/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9983 - age_output_loss: 0.0055 - gender_output_accuracy: 0.9900 - gender_output_loss: 0.0287 - loss: 0.0171
+Epoch 19: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m565s[0m 2s/step - age_output_accuracy: 0.9983 - age_output_loss: 0.0056 - gender_output_accuracy: 0.9897 - gender_output_loss: 0.0297 - loss: 0.0177 - val_age_output_accuracy: 0.8559 - val_age_output_loss: 1.4264 - val_gender_output_accuracy: 0.7263 - val_gender_output_loss: 1.4642 - val_loss: 1.4663
+Epoch 20/20
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2s/step - age_output_accuracy: 0.9983 - age_output_loss: 0.0071 - gender_output_accuracy: 0.9913 - gender_output_loss: 0.0262 - loss: 0.0166
+Epoch 20: val_loss did not improve from 0.52387
+[1m313/313[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m569s[0m 2s/step - age_output_accuracy: 0.9982 - age_output_loss: 0.0077 - gender_output_accuracy: 0.9902 - gender_output_loss: 0.0290 - loss: 0.0183 - val_age_output_accuracy: 0.8542 - val_age_output_loss: 1.6271 - val_gender_output_accuracy: 0.7245 - val_gender_output_loss: 1.2693 - val_loss: 1.4619
+
+total training time = 188m 6.0s
